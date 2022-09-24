@@ -5,3 +5,4 @@ dmenu
 nitrogen
 picom
 kitty
+network-manager-applet

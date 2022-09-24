@@ -1,0 +1,7 @@
+bspwm
+sxhkd
+polybar
+dmenu
+nitrogen
+picom
+kitty

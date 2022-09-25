@@ -1,8 +1,10 @@
 bspwm
 sxhkd
 polybar
-dmenu
+rofi
 nitrogen
 picom
 kitty
+
 network-manager-applet
+volumeicon

@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V
+bspc monitor -d 1 2 3 4 5
 
 bspc config border_width         2
 bspc config window_gap          12
@@ -17,7 +17,4 @@ bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
-$HOME/.config/polybar/launch.sh &
-nitrogen --restore &
-picom &
-nm-applet &
+$HOME/.config/bspwm/autorun.sh &

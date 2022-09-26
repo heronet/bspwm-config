@@ -7,4 +7,4 @@ picom
 kitty
 
 network-manager-applet
-volumeicon
+ttf-font-awesome v6

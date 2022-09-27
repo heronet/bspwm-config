@@ -6,6 +6,8 @@ rofi
 nitrogen
 picom
 kitty
+pavucontrol
 
 network-manager-applet
 ttf-font-awesome v6
+ttf-nerd-fonts-symbols-2048-em

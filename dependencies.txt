@@ -7,6 +7,8 @@ nitrogen
 picom
 kitty
 pavucontrol
+pamixer
+brightnessctl
 
 network-manager-applet
 ttf-font-awesome v6

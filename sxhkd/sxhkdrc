@@ -129,5 +129,7 @@ XF86AudioLowerVolume
 	pamixer -d 10
 XF86AudioMute
 	pamixer -t
+XF86AudioMicMute
+	pamixer -t
 XF86MonBrightness{Up,Down}  
   brightnessctl s 443.8{+,-}

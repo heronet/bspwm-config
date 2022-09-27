@@ -9,6 +9,7 @@ kitty
 pavucontrol
 pamixer
 brightnessctl
+mpd
 
 network-manager-applet
 ttf-font-awesome v6

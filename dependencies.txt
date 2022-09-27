@@ -1,6 +1,7 @@
 bspwm
 sxhkd
 polybar
+dunst
 rofi
 nitrogen
 picom

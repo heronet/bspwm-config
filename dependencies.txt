@@ -7,7 +7,6 @@ nitrogen
 picom
 kitty
 pavucontrol
-alsa-utils
 brightnessctl
 
 network-manager-applet

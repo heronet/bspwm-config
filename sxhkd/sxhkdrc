@@ -123,13 +123,14 @@ super + {Left,Down,Up,Right}
 #
 # hardware keys
 #
+
 XF86AudioRaiseVolume
-	amixer sset Master 5%+
+	pactl set-sink-volume @DEFAULT_SINK@ +10%
 XF86AudioLowerVolume
-	amixer sset Master 5%-
+	pactl set-sink-volume @DEFAULT_SINK@ -10%
 XF86AudioMute
-	amixer sset Master toggle
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
 XF86AudioMicMute
-	amixer sset Capture toggle
+	pactl set-source-mute 0 toggle
 XF86MonBrightness{Up,Down}  
-  brightnessctl s 443.8{+,-}
+	brightnessctl s 443.8{+,-}

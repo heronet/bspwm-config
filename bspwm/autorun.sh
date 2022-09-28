@@ -3,4 +3,3 @@ nitrogen --restore &
 picom &
 nm-applet &
 dunst &
-mpd &

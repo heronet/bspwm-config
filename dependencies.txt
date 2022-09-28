@@ -7,10 +7,10 @@ nitrogen
 picom
 kitty
 pavucontrol
-pamixer
+alsa-utils
 brightnessctl
-mpd
 
 network-manager-applet
+mpd
 ttf-font-awesome v6
 ttf-nerd-fonts-symbols-2048-em

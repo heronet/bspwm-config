@@ -124,12 +124,12 @@ super + {Left,Down,Up,Right}
 # hardware keys
 #
 XF86AudioRaiseVolume
-	pamixer -i 10
+	amixer sset Master 5%+
 XF86AudioLowerVolume
-	pamixer -d 10
+	amixer sset Master 5%-
 XF86AudioMute
-	pamixer -t
+	amixer sset Master toggle
 XF86AudioMicMute
-	pamixer -t
+	amixer sset Capture toggle
 XF86MonBrightness{Up,Down}  
   brightnessctl s 443.8{+,-}

@@ -8,6 +8,7 @@ picom
 kitty
 pavucontrol
 brightnessctl
+bluez-utils
 
 network-manager-applet
 mpd

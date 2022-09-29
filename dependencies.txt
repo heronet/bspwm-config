@@ -5,7 +5,7 @@ dunst
 rofi
 nitrogen
 picom
-kitty
+alacritty
 pavucontrol
 brightnessctl
 bluez-utils

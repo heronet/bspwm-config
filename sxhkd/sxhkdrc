@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + Return
-	kitty
+	alacritty
 
 # program launcher
 super + @space
@@ -123,7 +123,6 @@ super + {Left,Down,Up,Right}
 #
 # hardware keys
 #
-
 XF86AudioRaiseVolume
 	pactl set-sink-volume @DEFAULT_SINK@ +10%
 XF86AudioLowerVolume
@@ -133,4 +132,4 @@ XF86AudioMute
 XF86AudioMicMute
 	pactl set-source-mute 0 toggle
 XF86MonBrightness{Up,Down}  
-	brightnessctl s 443.8{+,-}
+  brightnessctl s 443.8{+,-}

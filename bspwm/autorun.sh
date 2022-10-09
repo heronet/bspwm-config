@@ -3,3 +3,4 @@ nitrogen --restore &
 picom &
 nm-applet &
 dunst &
+lxpolkit &

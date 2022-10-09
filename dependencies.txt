@@ -8,9 +8,11 @@ picom
 alacritty
 pavucontrol
 brightnessctl
+lxsession/lxpolkit
 bluez-utils
 
 network-manager-applet
 mpd
+mpc
 ttf-font-awesome v6
 ttf-nerd-fonts-symbols-2048-em

@@ -11,8 +11,12 @@ super + @space
 	rofi -show drun
 
 # browser
-super + b
+super + shift + b
 	google-chrome-stable || firefox
+
+# file manager
+super + shift + f 
+	thunar
 
 # make sxhkd reload its configuration files:
 super + Escape
@@ -127,13 +131,13 @@ super + {Left,Down,Up,Right}
 #
 # hardware keys
 #
-XF86AudioRaiseVolume
-	pactl set-sink-volume @DEFAULT_SINK@ +10%
-XF86AudioLowerVolume
-	pactl set-sink-volume @DEFAULT_SINK@ -10%
+XF86MonBrightness{Up,Down}  
+  brightnessctl s 443.8{+,-}
+XF86Audio{RaiseVolume,LowerVolume}
+	pactl set-sink-volume @DEFAULT_SINK@ {+10%,-10%}
 XF86AudioMute
 	pactl set-sink-mute @DEFAULT_SINK@ toggle
 XF86AudioMicMute
 	pactl set-source-mute 0 toggle
-XF86MonBrightness{Up,Down}  
-  brightnessctl s 443.8{+,-}
+XF86Audio{Prev,Play,Next}
+	mpc -q {prev,toggle,next}
